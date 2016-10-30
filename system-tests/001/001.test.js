@@ -1,3 +1,4 @@
+/* @flow */
 import * as systemTestUtils from "../systemTestUtils"
 import stylelint from "../../src"
 
