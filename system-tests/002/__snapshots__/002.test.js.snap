@@ -5,7 +5,7 @@ Array [
     "errored": true,
     "ignored": undefined,
     "invalidOptionWarnings": Array [],
-    "source": "/Users/davidclark/dev/stylelint/system-tests/002/stylesheet.scss",
+    "source": "002/stylesheet.scss",
     "warnings": Array [
       Object {
         "column": 24,

@@ -6,6 +6,6 @@ it("002", () => {
     files: [systemTestUtils.caseStylesheetGlob("002")],
     configFile: systemTestUtils.caseConfig("002", "js"),
   }).then(({ results }) => {
-    expect(systemTestUtils.trimResults(results)).toMatchSnapshot()
+    expect(systemTestUtils.prepResults(results)).toMatchSnapshot()
   })
 })
