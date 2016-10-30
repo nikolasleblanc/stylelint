@@ -13,8 +13,9 @@ matrix:
       script: npm run lint && npm run flow
     - node_js: '6'
       script: cd system-tests && npm i && cd - && npm run test-system
-    - node_js:
-        - '7'
-        - '6'
-        - '4'
+    - node_js: '7'
+      script: npm run test
+    - node_js: '6'
+      script: npm run test
+    - node_js: '4'
       script: npm run test
